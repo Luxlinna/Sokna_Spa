@@ -95,7 +95,7 @@ button{
 /* === REUSABLE CSS CLASSSES === */
 .container{
     max-width: 1124px;
-    margin-inline: 1.5rem;
+    margin-inline: 0;
 }
 .section{
     padding-block: 2.5rem;
