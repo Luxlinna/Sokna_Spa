@@ -1,3 +1,23 @@
-.container .service{
-    
+.service h3 {
+    text-transform: uppercase;
+}
+.service span{
+    font-size: small;
+    margin-bottom: .7rem 0 .7rem 0;
+}
+.service{
+    padding-bottom: .8rem;
+}
+.service li{
+    padding-top: .25rem;
+}
+.service__title{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+.treatment__container{
+    margin: 2rem 0 0 6rem;
+}
+.treatment__img{
+    margin-top: 5rem;
 }

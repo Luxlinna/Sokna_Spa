@@ -23,7 +23,7 @@
     --big-font-size: 1.25rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
+    --h3-font-size: .9rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
@@ -45,8 +45,8 @@
         --big-font-size: 2.75rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
-        --h3-font-size: 1rem;
-        --normal-font-size: 1rem;
+        --h3-font-size: .91rem;
+        --normal-font-size: .89rem;
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
     }  
@@ -70,7 +70,7 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
 }
-h1,h2,h3{
+h1,h2,h3,span{
     color: var(--second-color);
     font-weight: var(--font-bold);
 }
@@ -123,7 +123,7 @@ button{
 }
 .section__title{
     font-family: var(--body-font);
-    font-size: var(--h3-font-size);
+    font-size: var(--small-font-size);
     margin-bottom: 2.5rem;
     text-transform: uppercase;
 }
