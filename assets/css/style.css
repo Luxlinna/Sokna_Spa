@@ -70,7 +70,7 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
 }
-h1,h2,h3,span{
+h1,h2,h3{
     color: var(--second-color);
     font-weight: var(--font-bold);
 }
@@ -314,6 +314,7 @@ button{
     z-index: 1;
     margin: 0 auto;
 }
+
 /* === TREATMENTS === */
 .treatments{
     position: relative;
@@ -359,7 +360,10 @@ button{
 .treatments__card:hover p{
     color: var(--body-color);
 }
-
+.service span{
+    color: var(--second-color);
+    font-weight: var(--font-bold);
+}
 /* === GALLERY === */
 .gallery .section{
     padding: 0;
