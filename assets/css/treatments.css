@@ -15,9 +15,16 @@
     font-size: 2rem;
     margin-bottom: 2.5rem;
 }
-.treatment__container{
+.service__container{
     margin: 2rem 0 0 6rem;
 }
-.treatment__img{
+.service__img{
     margin-top: 5rem;
+}
+.service__img img{
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+.service__img img:hover{
+    transform: translateY(-25px);
 }

@@ -359,6 +359,7 @@ button{
 .treatments__card:hover p{
     color: var(--body-color);
 }
+
 /* === GALLERY === */
 .gallery .section{
     padding: 0;
