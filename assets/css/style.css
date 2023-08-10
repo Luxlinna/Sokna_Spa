@@ -247,7 +247,9 @@ button{
     position: absolute;
     z-index: var(--z-tooltip);
     margin: 5rem 1.5rem;
-    padding-left: 8.5rem; 
+}
+.home__content{
+    padding-left: 8.5rem;
 }
 .home__img{
     width: 100%;
@@ -639,6 +641,7 @@ button{
     display: flex;
     justify-content: center;
 }
+
 /* === SCROOL BAR === */
 ::-webkit-scrollbar{
     width: .6rem;
@@ -674,9 +677,10 @@ button{
 .show-scroll{
     bottom: 7.5rem;
 }
+
 /* === BREAKPOINTS === */
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 340px), screen and (max-width: 575px) {
     .container{
         margin-inline: 1rem;
     }
@@ -695,9 +699,9 @@ button{
         width: 200px;
         justify-self: center;
     }
-    .home__data{
-        justify-self: center;
-        margin-left: 0;
+    .home__content{
+        padding-left: 0;
+        justify-items: center;
     }
     .footer::before{
         height: 633px;
@@ -706,11 +710,11 @@ button{
         display: grid;
     }
 }
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
     .container{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-inline: 1rem;
     }
     .nav__menu{
         width: 300px;
@@ -753,7 +757,12 @@ button{
         justify-content: center;
         column-gap: 8rem;
     }
+    .home__content{
+        padding-left: 0;
+        justify-content: center;
+    }
 }
+
 @media screen and (min-width: 767px) {
     .home__data{
         /* order: 2; */
@@ -777,8 +786,9 @@ button{
     }
     .why-us__container{
         width: 500px;
-    }    
+    }   
 }
+
 /* For large devices */
 @media screen and (min-width: 1023px) {
     .header{
@@ -786,6 +796,9 @@ button{
         bottom: initial;
         background-color: var(--third-color);
         transition: .4s;
+    }
+    .home__content{
+        padding-left: 8.5rem;
     }
     .nav{
         width: initial;
@@ -874,11 +887,13 @@ button{
         grid-row: 3;
     }
 }
+
 @media screen and (min-width: 1155px) {
     .container{
         margin-inline: auto;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .section__border{
         padding-bottom: 6rem;
